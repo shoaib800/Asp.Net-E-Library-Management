@@ -11,7 +11,7 @@ namespace E_Library_Management
 {
 
 
-    public partial class WebForm1
+    public partial class Home
     {
     }
 }

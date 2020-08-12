@@ -67,6 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin_AuthorManagement.aspx" />
+    <Content Include="Admin_BookInventory.aspx" />
+    <Content Include="Admin_BookIssuing.aspx" />
+    <Content Include="Admin_Login.aspx" />
+    <Content Include="Admin_MemberManagement.aspx" />
+    <Content Include="Admin_PublisherManagement.aspx" />
     <Content Include="Bootstrap\css\bootstrap.min.css" />
     <Content Include="Bootstrap\js\bootstrap.min.js" />
     <Content Include="Bootstrap\js\jquery-3.3.1.slim.min.js" />
@@ -1710,6 +1716,7 @@
     <Content Include="Fontawesome\webfonts\fa-brands-400.svg" />
     <Content Include="Fontawesome\webfonts\fa-regular-400.svg" />
     <Content Include="Fontawesome\webfonts\fa-solid-900.svg" />
+    <Content Include="Home.aspx" />
     <Content Include="Images\adminuser.png" />
     <Content Include="Images\book-online.png" />
     <Content Include="Images\books.png" />
@@ -1725,10 +1732,61 @@
     <Content Include="Images\search-online.png" />
     <Content Include="Images\sign-up.png" />
     <Content Include="Images\writer.png" />
+    <Content Include="User_Login.aspx" />
+    <Content Include="User_Profile.aspx" />
+    <Content Include="User_Signup.aspx" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin_AuthorManagement.aspx.cs">
+      <DependentUpon>Admin_AuthorManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_AuthorManagement.aspx.designer.cs">
+      <DependentUpon>Admin_AuthorManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_BookInventory.aspx.cs">
+      <DependentUpon>Admin_BookInventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_BookInventory.aspx.designer.cs">
+      <DependentUpon>Admin_BookInventory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_BookIssuing.aspx.cs">
+      <DependentUpon>Admin_BookIssuing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_BookIssuing.aspx.designer.cs">
+      <DependentUpon>Admin_BookIssuing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Login.aspx.cs">
+      <DependentUpon>Admin_Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Login.aspx.designer.cs">
+      <DependentUpon>Admin_Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_MemberManagement.aspx.cs">
+      <DependentUpon>Admin_MemberManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_MemberManagement.aspx.designer.cs">
+      <DependentUpon>Admin_MemberManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_PublisherManagement.aspx.cs">
+      <DependentUpon>Admin_PublisherManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_PublisherManagement.aspx.designer.cs">
+      <DependentUpon>Admin_PublisherManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
@@ -1737,12 +1795,26 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="User_Login.aspx.cs">
+      <DependentUpon>User_Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="User_Login.aspx.designer.cs">
+      <DependentUpon>User_Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User_Profile.aspx.cs">
+      <DependentUpon>User_Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_Profile.aspx.designer.cs">
+      <DependentUpon>User_Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User_Signup.aspx.cs">
+      <DependentUpon>User_Signup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_Signup.aspx.designer.cs">
+      <DependentUpon>User_Signup.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -1800,6 +1872,7 @@
     <Content Include="Fontawesome\webfonts\fa-solid-900.ttf" />
     <Content Include="Fontawesome\webfonts\fa-solid-900.woff" />
     <Content Include="Fontawesome\webfonts\fa-solid-900.woff2" />
+    <Content Include="libman.json" />
     <None Include="packages.config" />
     <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
