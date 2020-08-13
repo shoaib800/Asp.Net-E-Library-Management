@@ -11,7 +11,7 @@ namespace E_Library_Management
 {
 
 
-    public partial class User_Login
+    public partial class adminlogin
     {
 
         /// <summary>

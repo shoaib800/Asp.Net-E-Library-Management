@@ -11,7 +11,7 @@ namespace E_Library_Management
 {
 
 
-    public partial class Admin_MemberManagement
+    public partial class adminmembermanagement
     {
 
         /// <summary>

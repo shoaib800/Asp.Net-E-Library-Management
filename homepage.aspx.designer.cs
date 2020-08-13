@@ -11,7 +11,7 @@ namespace E_Library_Management
 {
 
 
-    public partial class Home
+    public partial class homepage
     {
     }
 }

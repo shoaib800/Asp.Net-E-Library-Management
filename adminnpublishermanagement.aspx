@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Admin_PublisherManagement.aspx.cs" Inherits="E_Library_Management.Admin_PublisherManagement" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="adminnpublishermanagement.aspx.cs" Inherits="E_Library_Management.adminnpublishermanagement" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -18,7 +18,7 @@
                         <div class="row">
                             <div class="col">
                                 <center>
-                                        <img width="100px" src="Images/publisher.png" />         
+                                        <img width="100px" src="imgs/publisher.png" />         
                                     </center>
                             </div>
                         </div>
@@ -57,7 +57,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="Home.aspx"><< Back to Home</a><br>
+                <a href="homepage.aspx"><< Back to Home</a><br>
                 <br>
             </div>
             <div class="col-md-7">

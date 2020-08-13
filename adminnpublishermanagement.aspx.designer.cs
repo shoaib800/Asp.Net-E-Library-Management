@@ -11,7 +11,7 @@ namespace E_Library_Management
 {
 
 
-    public partial class Admin_PublisherManagement
+    public partial class adminnpublishermanagement
     {
 
         /// <summary>

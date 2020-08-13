@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="User_Signup.aspx.cs" Inherits="E_Library_Management.User_Signup" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="userprofile.aspx.cs" Inherits="E_Library_Management.usersignup" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server"></asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
    <div class="container-fluid">
@@ -9,7 +9,7 @@
                   <div class="row">
                      <div class="col">
                         <center>
-                           <img width="100px" src="Images/generaluser.png"/>
+                           <img width="100px" src="imgs/generaluser.png"/>
                         </center>
                      </div>
                   </div>
@@ -153,7 +153,7 @@
                   </div>
                </div>
             </div>
-            <a href="Home.aspx"><< Back to Home</a><br><br>
+            <a href="homepage.aspx"><< Back to Home</a><br><br>
          </div>
          <div class="col-md-7">
             <div class="card">
@@ -161,7 +161,7 @@
                   <div class="row">
                      <div class="col">
                         <center>
-                           <img width="100px" src="Images/books1.png"/>
+                           <img width="100px" src="imgs/books1.png"/>
                         </center>
                      </div>
                   </div>
