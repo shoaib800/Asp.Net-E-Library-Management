@@ -13,5 +13,50 @@ namespace E_Library_Management
         {
 
         }
+
+        protected void LinkButton6_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Admin_Login.aspx");
+        }
+
+        protected void LinkButton11_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Admin_AuthorManagement.aspx");
+        }
+
+        protected void LinkButton12_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Admin_PublisherManagement.aspx");
+        }
+
+        protected void LinkButton8_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Admin_BookInventory.aspx");
+        }
+
+        protected void LinkButton9_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Admin_BookIssuing.aspx");
+        }
+
+        protected void LinkButton10_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Admin_MemberManagement.aspx");
+        }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("User_Login.aspx");
+        }
+
+        protected void LinkButton2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("User_Signup.aspx");
+        }
+
+        protected void LinkButton4_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("View_Books.aspx");
+        }
     }
 }
