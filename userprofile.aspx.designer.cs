@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace E_Library_Management
+namespace WebApplication3
 {
 
 
-    public partial class usersignup
+    public partial class userprofile
     {
 
         /// <summary>
